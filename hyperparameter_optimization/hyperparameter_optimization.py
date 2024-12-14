@@ -12,6 +12,7 @@ import logging
 import optuna
 import matplotlib.pyplot as plt
 
+from tqdm import trange
 from torch.utils.data import random_split, DataLoader
 from torch_geometric.data import Data, Batch
 from torch_geometric.nn import TransformerConv, LayerNorm
@@ -23,8 +24,8 @@ from torch_geometric.utils import negative_sampling
 SEED = 42
 TRAIN_JSON = "../raw_data/stanford-covid-vaccine/train.json"
 RESULTS_DIR = "results_hpo"
-N_TRIALS = 10
-EPOCHS = 50
+N_TRIALS = 50
+EPOCHS = 100
 PATIENCE = 10
 BATCH_SIZE = 16
 LR_BASE = 1e-3
@@ -215,7 +216,7 @@ def mask_mse_loss(pred, y, batch_graph, seq_scored_list):
         return torch.tensor(0.0, device=device)
     return loss_sum/count
 
-def train_epoch(model, loader, optimizer):
+def train_epoch(model, loader, optimizer, grad_clip):
     model.train()
     total_loss = 0.0
     steps = 0
@@ -226,7 +227,7 @@ def train_epoch(model, loader, optimizer):
         pred = model(batch.x, batch.edge_index)
         loss = mask_mse_loss(pred, batch.y, batch.batch, seq_scored_tensor)
         loss.backward()
-        torch.nn.utils.clip_grad_norm_(model.parameters(), GRAD_CLIP)
+        torch.nn.utils.clip_grad_norm_(model.parameters(), grad_clip)
         optimizer.step()
         total_loss += loss.item()
         steps += 1
@@ -252,19 +253,21 @@ def eval_epoch(model, loader):
 def objective(trial):
     # Hyperparams to tune
     hid_dim = trial.suggest_categorical('hid_dim', [64,128,256])
-    layers = trial.suggest_int('layers', 2,4)
-    heads = trial.suggest_categorical('heads', [2,4,8])
+    layers = trial.suggest_int('layers', 2,6)
+    heads = trial.suggest_categorical('heads', [2,4,8,16])
     dropout = trial.suggest_float('dropout', 0.0, 0.5, step=0.1)
     lr = trial.suggest_float('lr', 1e-4, 1e-2, log=True)
+    weight_decay = trial.suggest_float('weight_decay', 1e-5, 1e-3, log=True)
+    grad_clip = trial.suggest_float('grad_clip', 1.0, 10.0, step=1.0)
 
     model = GNNModel(in_dim=15, out_dim=5, hid_dim=hid_dim, layers=layers, heads=heads, dropout=dropout).to(DEVICE)
-    optimizer = optim.Adam(model.parameters(), lr=lr, weight_decay=WEIGHT_DECAY)
+    optimizer = optim.Adam(model.parameters(), lr=lr, weight_decay=weight_decay)
 
     best_val_loss = float('inf')
     patience_counter = 0
 
-    for epoch in range(EPOCHS):
-        train_loss = train_epoch(model, train_loader, optimizer)
+    for epoch in trange(EPOCHS, desc=f"Trial {trial.number+1}/{N_TRIALS}"):
+        train_loss = train_epoch(model, train_loader, optimizer, grad_clip)
         val_loss = eval_epoch(model, val_loader)
 
         trial.report(val_loss, epoch)
