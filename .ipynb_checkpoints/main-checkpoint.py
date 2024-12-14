@@ -29,12 +29,12 @@ if not os.path.exists(RESULTS_DIR):
     os.makedirs(RESULTS_DIR)
 
 BATCH_SIZE = 16
-PRETRAIN_EPOCHS = 50    # Increase for richer embedding learning
-SUPERVISED_EPOCHS = 50  # Longer supervised training
+PRETRAIN_EPOCHS = 150    # Increase for richer embedding learning
+SUPERVISED_EPOCHS = 150  # Longer supervised training
 LR = 1e-3
-HIDDEN_DIM = 128         # Larger dimension for richer representation
-HEADS = 4                # More heads for better attention
-LAYERS = 4               # More layers for deeper architecture
+HIDDEN_DIM = 256         # Larger dimension for richer representation
+HEADS = 8                # More heads for better attention
+LAYERS = 6               # More layers for deeper architecture
 DROPOUT = 0.1
 WEIGHT_DECAY = 1e-4
 PATIENCE = 10
