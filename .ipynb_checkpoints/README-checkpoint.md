@@ -47,7 +47,8 @@ conda activate cpsc583_environment
 
 4. **Model training and experiments**:  
    - For architecture comparisons, go to `architecture_experiments/` and run scripts such as `python baseline_gnn.py`.  
-   - For hyperparameter optimization, navigate to `hyperparameter_optimization/` and run `python hyperparameter_optimization.py`.  
+   - For hyperparameter optimization, navigate to `hyperparameter_optimization/` and run `python hyperparameter_optimization.py`.
+   - For the primary model training script, run `python main.py`.
    - Check `results/` for output logs, best model checkpoints, and performance plots.
 
 ## Contributions

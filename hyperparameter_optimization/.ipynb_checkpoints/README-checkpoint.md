@@ -35,3 +35,9 @@ Run `python hyperparameter_optimization.py` to start the optimization process. A
 ## Outcome
 
 The tuned hyperparameters are used to configure the model in the final experiments. This process helps ensure that the chosen GNN configuration is not only theoretically robust but also empirically well-tuned for the specific RNA degradation prediction task.
+
+## Key Results
+
+![Optimization History](results_hpo/optimization_history.png)
+![Parallel Coordinates](results_hpo/parallel_coordinates.png)
+![Param Importances](results_hpo/param_importances.png)
