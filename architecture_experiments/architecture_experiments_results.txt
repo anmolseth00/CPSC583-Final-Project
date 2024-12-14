@@ -1,0 +1,327 @@
+Results pasted from terminal:
+
+python baseline_gnn.py
+Epoch 1/100, Train Loss: 0.9290, Val Loss: 0.8764
+Epoch 2/100, Train Loss: 0.8808, Val Loss: 0.8636
+Epoch 3/100, Train Loss: 0.8752, Val Loss: 0.8605
+Epoch 4/100, Train Loss: 0.8724, Val Loss: 0.8575
+Epoch 5/100, Train Loss: 0.8700, Val Loss: 0.8559
+Epoch 6/100, Train Loss: 0.8664, Val Loss: 0.8509
+Epoch 7/100, Train Loss: 0.8636, Val Loss: 0.8491
+Epoch 8/100, Train Loss: 0.8604, Val Loss: 0.8460
+Epoch 9/100, Train Loss: 0.8580, Val Loss: 0.8446
+Epoch 10/100, Train Loss: 0.8574, Val Loss: 0.8432
+Epoch 11/100, Train Loss: 0.8559, Val Loss: 0.8426
+Epoch 12/100, Train Loss: 0.8547, Val Loss: 0.8415
+Epoch 13/100, Train Loss: 0.8543, Val Loss: 0.8428
+Epoch 14/100, Train Loss: 0.8532, Val Loss: 0.8419
+Epoch 15/100, Train Loss: 0.8520, Val Loss: 0.8457
+Epoch 16/100, Train Loss: 0.8519, Val Loss: 0.8404
+Epoch 17/100, Train Loss: 0.8507, Val Loss: 0.8435
+Epoch 18/100, Train Loss: 0.8509, Val Loss: 0.8397
+Epoch 19/100, Train Loss: 0.8504, Val Loss: 0.8398
+Epoch 20/100, Train Loss: 0.8499, Val Loss: 0.8410
+Epoch 21/100, Train Loss: 0.8498, Val Loss: 0.8401
+Epoch 22/100, Train Loss: 0.8488, Val Loss: 0.8391
+Epoch 23/100, Train Loss: 0.8494, Val Loss: 0.8391
+Epoch 24/100, Train Loss: 0.8490, Val Loss: 0.8404
+Epoch 25/100, Train Loss: 0.8488, Val Loss: 0.8384
+Epoch 26/100, Train Loss: 0.8486, Val Loss: 0.8387
+Epoch 27/100, Train Loss: 0.8483, Val Loss: 0.8377
+Epoch 28/100, Train Loss: 0.8483, Val Loss: 0.8388
+Epoch 29/100, Train Loss: 0.8481, Val Loss: 0.8383
+Epoch 30/100, Train Loss: 0.8476, Val Loss: 0.8385
+Epoch 31/100, Train Loss: 0.8477, Val Loss: 0.8370
+Epoch 32/100, Train Loss: 0.8480, Val Loss: 0.8382
+Epoch 33/100, Train Loss: 0.8479, Val Loss: 0.8378
+Epoch 34/100, Train Loss: 0.8475, Val Loss: 0.8374
+Epoch 35/100, Train Loss: 0.8473, Val Loss: 0.8389
+Epoch 36/100, Train Loss: 0.8470, Val Loss: 0.8374
+Early stopping triggered.
+
+python advanced_gat.py
+/opt/anaconda3/envs/GNN/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+[Advanced GAT] Epoch 1/100, Train Loss: 0.9410, Val Loss: 1.3357
+[Advanced GAT] Epoch 2/100, Train Loss: 0.8515, Val Loss: 1.3217
+[Advanced GAT] Epoch 3/100, Train Loss: 0.8323, Val Loss: 1.3171
+[Advanced GAT] Epoch 4/100, Train Loss: 0.8245, Val Loss: 1.3110
+[Advanced GAT] Epoch 5/100, Train Loss: 0.8180, Val Loss: 1.3056
+[Advanced GAT] Epoch 6/100, Train Loss: 0.8138, Val Loss: 1.3075
+[Advanced GAT] Epoch 7/100, Train Loss: 0.8098, Val Loss: 1.2955
+[Advanced GAT] Epoch 8/100, Train Loss: 0.8052, Val Loss: 1.2932
+[Advanced GAT] Epoch 9/100, Train Loss: 0.8047, Val Loss: 1.2941
+[Advanced GAT] Epoch 10/100, Train Loss: 0.8007, Val Loss: 1.2947
+[Advanced GAT] Epoch 11/100, Train Loss: 0.7995, Val Loss: 1.2925
+[Advanced GAT] Epoch 12/100, Train Loss: 0.7986, Val Loss: 1.2930
+[Advanced GAT] Epoch 13/100, Train Loss: 0.7974, Val Loss: 1.2910
+[Advanced GAT] Epoch 14/100, Train Loss: 0.7973, Val Loss: 1.2882
+[Advanced GAT] Epoch 15/100, Train Loss: 0.7962, Val Loss: 1.2911
+[Advanced GAT] Epoch 16/100, Train Loss: 0.7953, Val Loss: 1.2886
+[Advanced GAT] Epoch 17/100, Train Loss: 0.7955, Val Loss: 1.2914
+[Advanced GAT] Epoch 18/100, Train Loss: 0.7946, Val Loss: 1.2880
+[Advanced GAT] Epoch 19/100, Train Loss: 0.7944, Val Loss: 1.2885
+[Advanced GAT] Epoch 20/100, Train Loss: 0.7942, Val Loss: 1.2894
+[Advanced GAT] Epoch 21/100, Train Loss: 0.7931, Val Loss: 1.2871
+[Advanced GAT] Epoch 22/100, Train Loss: 0.7928, Val Loss: 1.2884
+[Advanced GAT] Epoch 23/100, Train Loss: 0.7934, Val Loss: 1.2881
+[Advanced GAT] Epoch 24/100, Train Loss: 0.7927, Val Loss: 1.2870
+[Advanced GAT] Epoch 25/100, Train Loss: 0.7930, Val Loss: 1.2877
+[Advanced GAT] Epoch 26/100, Train Loss: 0.7911, Val Loss: 1.2962
+[Advanced GAT] Epoch 27/100, Train Loss: 0.7916, Val Loss: 1.2856
+[Advanced GAT] Epoch 28/100, Train Loss: 0.7906, Val Loss: 1.2929
+[Advanced GAT] Epoch 29/100, Train Loss: 0.7912, Val Loss: 1.2850
+[Advanced GAT] Epoch 30/100, Train Loss: 0.7911, Val Loss: 1.2931
+[Advanced GAT] Epoch 31/100, Train Loss: 0.7908, Val Loss: 1.2886
+[Advanced GAT] Epoch 32/100, Train Loss: 0.7903, Val Loss: 1.2884
+[Advanced GAT] Epoch 33/100, Train Loss: 0.7899, Val Loss: 1.2903
+[Advanced GAT] Epoch 34/100, Train Loss: 0.7902, Val Loss: 1.2840
+[Advanced GAT] Epoch 35/100, Train Loss: 0.7893, Val Loss: 1.2862
+[Advanced GAT] Epoch 36/100, Train Loss: 0.7895, Val Loss: 1.2848
+[Advanced GAT] Epoch 37/100, Train Loss: 0.7896, Val Loss: 1.2883
+[Advanced GAT] Epoch 38/100, Train Loss: 0.7901, Val Loss: 1.2845
+[Advanced GAT] Epoch 39/100, Train Loss: 0.7894, Val Loss: 1.2834
+[Advanced GAT] Epoch 40/100, Train Loss: 0.7895, Val Loss: 1.2850
+[Advanced GAT] Epoch 41/100, Train Loss: 0.7889, Val Loss: 1.2835
+[Advanced GAT] Epoch 42/100, Train Loss: 0.7882, Val Loss: 1.2863
+[Advanced GAT] Epoch 43/100, Train Loss: 0.7885, Val Loss: 1.2825
+[Advanced GAT] Epoch 44/100, Train Loss: 0.7879, Val Loss: 1.2872
+[Advanced GAT] Epoch 45/100, Train Loss: 0.7884, Val Loss: 1.2841
+[Advanced GAT] Epoch 46/100, Train Loss: 0.7885, Val Loss: 1.2826
+[Advanced GAT] Epoch 47/100, Train Loss: 0.7879, Val Loss: 1.2828
+[Advanced GAT] Epoch 48/100, Train Loss: 0.7880, Val Loss: 1.2850
+[Advanced GAT] Epoch 49/100, Train Loss: 0.7873, Val Loss: 1.2847
+[Advanced GAT] Epoch 50/100, Train Loss: 0.7861, Val Loss: 1.2816
+[Advanced GAT] Epoch 51/100, Train Loss: 0.7864, Val Loss: 1.2845
+[Advanced GAT] Epoch 52/100, Train Loss: 0.7858, Val Loss: 1.2833
+[Advanced GAT] Epoch 53/100, Train Loss: 0.7852, Val Loss: 1.2836
+[Advanced GAT] Epoch 54/100, Train Loss: 0.7866, Val Loss: 1.2856
+[Advanced GAT] Epoch 55/100, Train Loss: 0.7863, Val Loss: 1.2822
+[Advanced GAT] Epoch 56/100, Train Loss: 0.7864, Val Loss: 1.2814
+[Advanced GAT] Epoch 57/100, Train Loss: 0.7857, Val Loss: 1.2828
+[Advanced GAT] Epoch 58/100, Train Loss: 0.7861, Val Loss: 1.2828
+[Advanced GAT] Epoch 59/100, Train Loss: 0.7861, Val Loss: 1.2815
+[Advanced GAT] Epoch 60/100, Train Loss: 0.7859, Val Loss: 1.2842
+[Advanced GAT] Epoch 61/100, Train Loss: 0.7853, Val Loss: 1.2829
+[Advanced GAT] Epoch 62/100, Train Loss: 0.7862, Val Loss: 1.2807
+[Advanced GAT] Epoch 63/100, Train Loss: 0.7853, Val Loss: 1.2857
+[Advanced GAT] Epoch 64/100, Train Loss: 0.7854, Val Loss: 1.2856
+[Advanced GAT] Epoch 65/100, Train Loss: 0.7858, Val Loss: 1.2810
+[Advanced GAT] Epoch 66/100, Train Loss: 0.7859, Val Loss: 1.2813
+[Advanced GAT] Epoch 67/100, Train Loss: 0.7853, Val Loss: 1.2828
+[Advanced GAT] Epoch 68/100, Train Loss: 0.7853, Val Loss: 1.2828
+[Advanced GAT] Epoch 69/100, Train Loss: 0.7846, Val Loss: 1.2811
+[Advanced GAT] Epoch 70/100, Train Loss: 0.7841, Val Loss: 1.2807
+[Advanced GAT] Epoch 71/100, Train Loss: 0.7840, Val Loss: 1.2801
+[Advanced GAT] Epoch 72/100, Train Loss: 0.7845, Val Loss: 1.2796
+[Advanced GAT] Epoch 73/100, Train Loss: 0.7845, Val Loss: 1.2801
+[Advanced GAT] Epoch 74/100, Train Loss: 0.7845, Val Loss: 1.2832
+[Advanced GAT] Epoch 75/100, Train Loss: 0.7836, Val Loss: 1.2804
+[Advanced GAT] Epoch 76/100, Train Loss: 0.7844, Val Loss: 1.2813
+[Advanced GAT] Epoch 77/100, Train Loss: 0.7841, Val Loss: 1.2810
+[Advanced GAT] Epoch 78/100, Train Loss: 0.7842, Val Loss: 1.2798
+[Advanced GAT] Epoch 79/100, Train Loss: 0.7838, Val Loss: 1.2807
+[Advanced GAT] Epoch 80/100, Train Loss: 0.7835, Val Loss: 1.2825
+[Advanced GAT] Epoch 81/100, Train Loss: 0.7843, Val Loss: 1.2801
+[Advanced GAT] Epoch 82/100, Train Loss: 0.7833, Val Loss: 1.2800
+Early stopping triggered.
+Training complete. Best val loss: 1.2796255201101303
+
+python hybrid_gnn_xgboost.py
+/opt/anaconda3/envs/GNN/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+[Hybrid GNN+XGB GNN Stage] Epoch 1/100, Train Loss: 0.8677, Val Loss: 1.1021
+[Hybrid GNN+XGB GNN Stage] Epoch 2/100, Train Loss: 0.8416, Val Loss: 1.0886
+[Hybrid GNN+XGB GNN Stage] Epoch 3/100, Train Loss: 0.8370, Val Loss: 1.1005
+[Hybrid GNN+XGB GNN Stage] Epoch 4/100, Train Loss: 0.8327, Val Loss: 1.0929
+[Hybrid GNN+XGB GNN Stage] Epoch 5/100, Train Loss: 0.8307, Val Loss: 1.0879
+[Hybrid GNN+XGB GNN Stage] Epoch 6/100, Train Loss: 0.8298, Val Loss: 1.0837
+[Hybrid GNN+XGB GNN Stage] Epoch 7/100, Train Loss: 0.8278, Val Loss: 1.0837
+[Hybrid GNN+XGB GNN Stage] Epoch 8/100, Train Loss: 0.8273, Val Loss: 1.0835
+[Hybrid GNN+XGB GNN Stage] Epoch 9/100, Train Loss: 0.8265, Val Loss: 1.0844
+[Hybrid GNN+XGB GNN Stage] Epoch 10/100, Train Loss: 0.8253, Val Loss: 1.0807
+[Hybrid GNN+XGB GNN Stage] Epoch 11/100, Train Loss: 0.8252, Val Loss: 1.0778
+[Hybrid GNN+XGB GNN Stage] Epoch 12/100, Train Loss: 0.8242, Val Loss: 1.0799
+[Hybrid GNN+XGB GNN Stage] Epoch 13/100, Train Loss: 0.8229, Val Loss: 1.0788
+[Hybrid GNN+XGB GNN Stage] Epoch 14/100, Train Loss: 0.8229, Val Loss: 1.0790
+[Hybrid GNN+XGB GNN Stage] Epoch 15/100, Train Loss: 0.8239, Val Loss: 1.0813
+[Hybrid GNN+XGB GNN Stage] Epoch 16/100, Train Loss: 0.8216, Val Loss: 1.0797
+[Hybrid GNN+XGB GNN Stage] Epoch 17/100, Train Loss: 0.8217, Val Loss: 1.0740
+[Hybrid GNN+XGB GNN Stage] Epoch 18/100, Train Loss: 0.8223, Val Loss: 1.0756
+[Hybrid GNN+XGB GNN Stage] Epoch 19/100, Train Loss: 0.8207, Val Loss: 1.0820
+[Hybrid GNN+XGB GNN Stage] Epoch 20/100, Train Loss: 0.8202, Val Loss: 1.0835
+[Hybrid GNN+XGB GNN Stage] Epoch 21/100, Train Loss: 0.8207, Val Loss: 1.0765
+[Hybrid GNN+XGB GNN Stage] Epoch 22/100, Train Loss: 0.8191, Val Loss: 1.0741
+[Hybrid GNN+XGB GNN Stage] Epoch 23/100, Train Loss: 0.8203, Val Loss: 1.0749
+[Hybrid GNN+XGB GNN Stage] Epoch 24/100, Train Loss: 0.8176, Val Loss: 1.0744
+[Hybrid GNN+XGB GNN Stage] Epoch 25/100, Train Loss: 0.8162, Val Loss: 1.0739
+[Hybrid GNN+XGB GNN Stage] Epoch 26/100, Train Loss: 0.8154, Val Loss: 1.0708
+[Hybrid GNN+XGB GNN Stage] Epoch 27/100, Train Loss: 0.8159, Val Loss: 1.0739
+[Hybrid GNN+XGB GNN Stage] Epoch 28/100, Train Loss: 0.8155, Val Loss: 1.0696
+[Hybrid GNN+XGB GNN Stage] Epoch 29/100, Train Loss: 0.8151, Val Loss: 1.0745
+[Hybrid GNN+XGB GNN Stage] Epoch 30/100, Train Loss: 0.8154, Val Loss: 1.0702
+[Hybrid GNN+XGB GNN Stage] Epoch 31/100, Train Loss: 0.8149, Val Loss: 1.0726
+[Hybrid GNN+XGB GNN Stage] Epoch 32/100, Train Loss: 0.8151, Val Loss: 1.0691
+[Hybrid GNN+XGB GNN Stage] Epoch 33/100, Train Loss: 0.8144, Val Loss: 1.0696
+[Hybrid GNN+XGB GNN Stage] Epoch 34/100, Train Loss: 0.8137, Val Loss: 1.0697
+[Hybrid GNN+XGB GNN Stage] Epoch 35/100, Train Loss: 0.8135, Val Loss: 1.0714
+[Hybrid GNN+XGB GNN Stage] Epoch 36/100, Train Loss: 0.8135, Val Loss: 1.0688
+[Hybrid GNN+XGB GNN Stage] Epoch 37/100, Train Loss: 0.8137, Val Loss: 1.0734
+[Hybrid GNN+XGB GNN Stage] Epoch 38/100, Train Loss: 0.8138, Val Loss: 1.0711
+[Hybrid GNN+XGB GNN Stage] Epoch 39/100, Train Loss: 0.8131, Val Loss: 1.0725
+[Hybrid GNN+XGB GNN Stage] Epoch 40/100, Train Loss: 0.8130, Val Loss: 1.0691
+[Hybrid GNN+XGB GNN Stage] Epoch 41/100, Train Loss: 0.8128, Val Loss: 1.0707
+[Hybrid GNN+XGB GNN Stage] Epoch 42/100, Train Loss: 0.8127, Val Loss: 1.0712
+[Hybrid GNN+XGB GNN Stage] Epoch 43/100, Train Loss: 0.8114, Val Loss: 1.0701
+[Hybrid GNN+XGB GNN Stage] Epoch 44/100, Train Loss: 0.8118, Val Loss: 1.0670
+[Hybrid GNN+XGB GNN Stage] Epoch 45/100, Train Loss: 0.8108, Val Loss: 1.0697
+[Hybrid GNN+XGB GNN Stage] Epoch 46/100, Train Loss: 0.8110, Val Loss: 1.0697
+[Hybrid GNN+XGB GNN Stage] Epoch 47/100, Train Loss: 0.8099, Val Loss: 1.0676
+[Hybrid GNN+XGB GNN Stage] Epoch 48/100, Train Loss: 0.8106, Val Loss: 1.0681
+[Hybrid GNN+XGB GNN Stage] Epoch 49/100, Train Loss: 0.8096, Val Loss: 1.0675
+[Hybrid GNN+XGB GNN Stage] Epoch 50/100, Train Loss: 0.8098, Val Loss: 1.0682
+[Hybrid GNN+XGB GNN Stage] Epoch 51/100, Train Loss: 0.8094, Val Loss: 1.0670
+[Hybrid GNN+XGB GNN Stage] Epoch 52/100, Train Loss: 0.8087, Val Loss: 1.0668
+[Hybrid GNN+XGB GNN Stage] Epoch 53/100, Train Loss: 0.8089, Val Loss: 1.0669
+[Hybrid GNN+XGB GNN Stage] Epoch 54/100, Train Loss: 0.8091, Val Loss: 1.0672
+[Hybrid GNN+XGB GNN Stage] Epoch 55/100, Train Loss: 0.8091, Val Loss: 1.0659
+[Hybrid GNN+XGB GNN Stage] Epoch 56/100, Train Loss: 0.8086, Val Loss: 1.0658
+[Hybrid GNN+XGB GNN Stage] Epoch 57/100, Train Loss: 0.8081, Val Loss: 1.0666
+[Hybrid GNN+XGB GNN Stage] Epoch 58/100, Train Loss: 0.8082, Val Loss: 1.0648
+[Hybrid GNN+XGB GNN Stage] Epoch 59/100, Train Loss: 0.8084, Val Loss: 1.0658
+[Hybrid GNN+XGB GNN Stage] Epoch 60/100, Train Loss: 0.8084, Val Loss: 1.0662
+[Hybrid GNN+XGB GNN Stage] Epoch 61/100, Train Loss: 0.8080, Val Loss: 1.0650
+[Hybrid GNN+XGB GNN Stage] Epoch 62/100, Train Loss: 0.8078, Val Loss: 1.0638
+[Hybrid GNN+XGB GNN Stage] Epoch 63/100, Train Loss: 0.8079, Val Loss: 1.0644
+[Hybrid GNN+XGB GNN Stage] Epoch 64/100, Train Loss: 0.8073, Val Loss: 1.0656
+[Hybrid GNN+XGB GNN Stage] Epoch 65/100, Train Loss: 0.8078, Val Loss: 1.0647
+[Hybrid GNN+XGB GNN Stage] Epoch 66/100, Train Loss: 0.8073, Val Loss: 1.0651
+[Hybrid GNN+XGB GNN Stage] Epoch 67/100, Train Loss: 0.8076, Val Loss: 1.0629
+[Hybrid GNN+XGB GNN Stage] Epoch 68/100, Train Loss: 0.8073, Val Loss: 1.0631
+[Hybrid GNN+XGB GNN Stage] Epoch 69/100, Train Loss: 0.8071, Val Loss: 1.0626
+[Hybrid GNN+XGB GNN Stage] Epoch 70/100, Train Loss: 0.8072, Val Loss: 1.0637
+[Hybrid GNN+XGB GNN Stage] Epoch 71/100, Train Loss: 0.8075, Val Loss: 1.0628
+[Hybrid GNN+XGB GNN Stage] Epoch 72/100, Train Loss: 0.8066, Val Loss: 1.0635
+[Hybrid GNN+XGB GNN Stage] Epoch 73/100, Train Loss: 0.8067, Val Loss: 1.0647
+[Hybrid GNN+XGB GNN Stage] Epoch 74/100, Train Loss: 0.8068, Val Loss: 1.0629
+[Hybrid GNN+XGB GNN Stage] Epoch 75/100, Train Loss: 0.8062, Val Loss: 1.0621
+[Hybrid GNN+XGB GNN Stage] Epoch 76/100, Train Loss: 0.8059, Val Loss: 1.0624
+[Hybrid GNN+XGB GNN Stage] Epoch 77/100, Train Loss: 0.8065, Val Loss: 1.0614
+[Hybrid GNN+XGB GNN Stage] Epoch 78/100, Train Loss: 0.8065, Val Loss: 1.0611
+[Hybrid GNN+XGB GNN Stage] Epoch 79/100, Train Loss: 0.8070, Val Loss: 1.0597
+[Hybrid GNN+XGB GNN Stage] Epoch 80/100, Train Loss: 0.8066, Val Loss: 1.0605
+[Hybrid GNN+XGB GNN Stage] Epoch 81/100, Train Loss: 0.8064, Val Loss: 1.0607
+[Hybrid GNN+XGB GNN Stage] Epoch 82/100, Train Loss: 0.8056, Val Loss: 1.0596
+[Hybrid GNN+XGB GNN Stage] Epoch 83/100, Train Loss: 0.8054, Val Loss: 1.0610
+[Hybrid GNN+XGB GNN Stage] Epoch 84/100, Train Loss: 0.8058, Val Loss: 1.0605
+[Hybrid GNN+XGB GNN Stage] Epoch 85/100, Train Loss: 0.8047, Val Loss: 1.0588
+[Hybrid GNN+XGB GNN Stage] Epoch 86/100, Train Loss: 0.8054, Val Loss: 1.0600
+[Hybrid GNN+XGB GNN Stage] Epoch 87/100, Train Loss: 0.8062, Val Loss: 1.0602
+[Hybrid GNN+XGB GNN Stage] Epoch 88/100, Train Loss: 0.8051, Val Loss: 1.0592
+[Hybrid GNN+XGB GNN Stage] Epoch 89/100, Train Loss: 0.8057, Val Loss: 1.0587
+[Hybrid GNN+XGB GNN Stage] Epoch 90/100, Train Loss: 0.8048, Val Loss: 1.0585
+[Hybrid GNN+XGB GNN Stage] Epoch 91/100, Train Loss: 0.8047, Val Loss: 1.0592
+[Hybrid GNN+XGB GNN Stage] Epoch 92/100, Train Loss: 0.8052, Val Loss: 1.0591
+[Hybrid GNN+XGB GNN Stage] Epoch 93/100, Train Loss: 0.8052, Val Loss: 1.0580
+[Hybrid GNN+XGB GNN Stage] Epoch 94/100, Train Loss: 0.8053, Val Loss: 1.0600
+[Hybrid GNN+XGB GNN Stage] Epoch 95/100, Train Loss: 0.8053, Val Loss: 1.0581
+[Hybrid GNN+XGB GNN Stage] Epoch 96/100, Train Loss: 0.8044, Val Loss: 1.0578
+[Hybrid GNN+XGB GNN Stage] Epoch 97/100, Train Loss: 0.8051, Val Loss: 1.0582
+[Hybrid GNN+XGB GNN Stage] Epoch 98/100, Train Loss: 0.8049, Val Loss: 1.0586
+[Hybrid GNN+XGB GNN Stage] Epoch 99/100, Train Loss: 0.8050, Val Loss: 1.0568
+[Hybrid GNN+XGB GNN Stage] Epoch 100/100, Train Loss: 0.8048, Val Loss: 1.0589
+Best GNN val loss: 1.0568400243918101
+/Users/aseth/Documents/Yale/Fall 2024/CPSC 583 - DL on Graphs/CPSC583-Final-Project/hybrid_gnn_xgboost.py:276: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model_state = torch.load("transformer_gnn_model.pt", map_location=DEVICE)
+XGBoost Validation MSE per target: {'reactivity': 0.010715936, 'deg_Mg_pH10': 0.008118114, 'deg_Mg_50C': 0.013767672, 'deg_pH10': 0.02624054, 'deg_50C': 0.023063915}
+Done. Final results:
+Best GNN validation loss from training step: 0.008118114 (Compare with other approaches!)
+
+python pretrain_then_supervised.py
+/opt/anaconda3/envs/GNN/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:60: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Starting advanced pretraining...
+[Pretraining] Epoch 1/50, Train Loss: 0.3745, Val Loss: 0.1095
+[Pretraining] Epoch 2/50, Train Loss: 0.1197, Val Loss: 0.0799
+[Pretraining] Epoch 3/50, Train Loss: 0.0799, Val Loss: 0.0515
+[Pretraining] Epoch 4/50, Train Loss: 0.0642, Val Loss: 0.0438
+[Pretraining] Epoch 5/50, Train Loss: 0.0492, Val Loss: 0.0441
+[Pretraining] Epoch 6/50, Train Loss: 0.0400, Val Loss: 0.0356
+[Pretraining] Epoch 7/50, Train Loss: 0.0345, Val Loss: 0.0322
+[Pretraining] Epoch 8/50, Train Loss: 0.0317, Val Loss: 0.0276
+[Pretraining] Epoch 9/50, Train Loss: 0.0302, Val Loss: 0.0359
+[Pretraining] Epoch 10/50, Train Loss: 0.0283, Val Loss: 0.0302
+[Pretraining] Epoch 11/50, Train Loss: 0.0275, Val Loss: 0.0287
+[Pretraining] Epoch 12/50, Train Loss: 0.0275, Val Loss: 0.0270
+[Pretraining] Epoch 13/50, Train Loss: 0.0258, Val Loss: 0.0254
+[Pretraining] Epoch 14/50, Train Loss: 0.0260, Val Loss: 0.0311
+[Pretraining] Epoch 15/50, Train Loss: 0.0256, Val Loss: 0.0268
+[Pretraining] Epoch 16/50, Train Loss: 0.0251, Val Loss: 0.0248
+[Pretraining] Epoch 17/50, Train Loss: 0.0249, Val Loss: 0.0301
+[Pretraining] Epoch 18/50, Train Loss: 0.0230, Val Loss: 0.0290
+[Pretraining] Epoch 19/50, Train Loss: 0.0227, Val Loss: 0.0290
+[Pretraining] Epoch 20/50, Train Loss: 0.0232, Val Loss: 0.0276
+[Pretraining] Epoch 21/50, Train Loss: 0.0225, Val Loss: 0.0287
+[Pretraining] Epoch 22/50, Train Loss: 0.0232, Val Loss: 0.0289
+[Pretraining] Epoch 23/50, Train Loss: 0.0179, Val Loss: 0.0275
+[Pretraining] Epoch 24/50, Train Loss: 0.0175, Val Loss: 0.0286
+[Pretraining] Epoch 25/50, Train Loss: 0.0173, Val Loss: 0.0305
+[Pretraining] Epoch 26/50, Train Loss: 0.0171, Val Loss: 0.0273
+Early stopping triggered in pretraining.
+Best Pretraining val loss: 0.024752363076676494
+/Users/aseth/Documents/Yale/Fall 2024/CPSC 583 - DL on Graphs/CPSC583-Final-Project/pretrain_then_supervised.py:511: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  foundation_model.load_state_dict(torch.load("foundation_pretrained.pt", map_location=DEVICE))
+Starting supervised fine-tuning...
+[Supervised Fine-tune] Epoch 1/50, Train Loss: 0.9556, Val Loss: 0.5339
+[Supervised Fine-tune] Epoch 2/50, Train Loss: 0.8906, Val Loss: 0.5254
+[Supervised Fine-tune] Epoch 3/50, Train Loss: 0.8851, Val Loss: 0.5224
+[Supervised Fine-tune] Epoch 4/50, Train Loss: 0.8813, Val Loss: 0.5140
+[Supervised Fine-tune] Epoch 5/50, Train Loss: 0.8794, Val Loss: 0.5148
+[Supervised Fine-tune] Epoch 6/50, Train Loss: 0.8774, Val Loss: 0.5147
+[Supervised Fine-tune] Epoch 7/50, Train Loss: 0.8782, Val Loss: 0.5179
+[Supervised Fine-tune] Epoch 8/50, Train Loss: 0.8780, Val Loss: 0.5150
+[Supervised Fine-tune] Epoch 9/50, Train Loss: 0.8765, Val Loss: 0.5118
+[Supervised Fine-tune] Epoch 10/50, Train Loss: 0.8756, Val Loss: 0.5106
+[Supervised Fine-tune] Epoch 11/50, Train Loss: 0.8747, Val Loss: 0.5123
+[Supervised Fine-tune] Epoch 12/50, Train Loss: 0.8728, Val Loss: 0.5091
+[Supervised Fine-tune] Epoch 13/50, Train Loss: 0.8739, Val Loss: 0.5090
+[Supervised Fine-tune] Epoch 14/50, Train Loss: 0.8715, Val Loss: 0.5086
+[Supervised Fine-tune] Epoch 15/50, Train Loss: 0.8727, Val Loss: 0.5078
+[Supervised Fine-tune] Epoch 16/50, Train Loss: 0.8710, Val Loss: 0.5095
+[Supervised Fine-tune] Epoch 17/50, Train Loss: 0.8704, Val Loss: 0.5101
+[Supervised Fine-tune] Epoch 18/50, Train Loss: 0.8714, Val Loss: 0.5072
+[Supervised Fine-tune] Epoch 19/50, Train Loss: 0.8682, Val Loss: 0.5066
+[Supervised Fine-tune] Epoch 20/50, Train Loss: 0.8674, Val Loss: 0.5046
+[Supervised Fine-tune] Epoch 21/50, Train Loss: 0.8668, Val Loss: 0.5123
+[Supervised Fine-tune] Epoch 22/50, Train Loss: 0.8659, Val Loss: 0.5099
+[Supervised Fine-tune] Epoch 23/50, Train Loss: 0.8653, Val Loss: 0.5084
+[Supervised Fine-tune] Epoch 24/50, Train Loss: 0.8649, Val Loss: 0.5082
+[Supervised Fine-tune] Epoch 25/50, Train Loss: 0.8658, Val Loss: 0.5078
+[Supervised Fine-tune] Epoch 26/50, Train Loss: 0.8642, Val Loss: 0.5048
+[Supervised Fine-tune] Epoch 27/50, Train Loss: 0.8600, Val Loss: 0.5016
+[Supervised Fine-tune] Epoch 28/50, Train Loss: 0.8605, Val Loss: 0.5024
+[Supervised Fine-tune] Epoch 29/50, Train Loss: 0.8585, Val Loss: 0.5006
+[Supervised Fine-tune] Epoch 30/50, Train Loss: 0.8599, Val Loss: 0.5006
+[Supervised Fine-tune] Epoch 31/50, Train Loss: 0.8582, Val Loss: 0.5038
+[Supervised Fine-tune] Epoch 32/50, Train Loss: 0.8586, Val Loss: 0.5024
+[Supervised Fine-tune] Epoch 33/50, Train Loss: 0.8575, Val Loss: 0.5032
+[Supervised Fine-tune] Epoch 34/50, Train Loss: 0.8575, Val Loss: 0.4996
+[Supervised Fine-tune] Epoch 35/50, Train Loss: 0.8567, Val Loss: 0.5031
+[Supervised Fine-tune] Epoch 36/50, Train Loss: 0.8579, Val Loss: 0.5009
+[Supervised Fine-tune] Epoch 37/50, Train Loss: 0.8572, Val Loss: 0.5010
+[Supervised Fine-tune] Epoch 38/50, Train Loss: 0.8562, Val Loss: 0.5014
+[Supervised Fine-tune] Epoch 39/50, Train Loss: 0.8562, Val Loss: 0.4992
+[Supervised Fine-tune] Epoch 40/50, Train Loss: 0.8560, Val Loss: 0.5009
+[Supervised Fine-tune] Epoch 41/50, Train Loss: 0.8565, Val Loss: 0.4986
+[Supervised Fine-tune] Epoch 42/50, Train Loss: 0.8554, Val Loss: 0.5012
+[Supervised Fine-tune] Epoch 43/50, Train Loss: 0.8556, Val Loss: 0.4972
+[Supervised Fine-tune] Epoch 44/50, Train Loss: 0.8562, Val Loss: 0.4988
+[Supervised Fine-tune] Epoch 45/50, Train Loss: 0.8549, Val Loss: 0.4967
+[Supervised Fine-tune] Epoch 46/50, Train Loss: 0.8556, Val Loss: 0.4982
+[Supervised Fine-tune] Epoch 47/50, Train Loss: 0.8543, Val Loss: 0.4969
+[Supervised Fine-tune] Epoch 48/50, Train Loss: 0.8538, Val Loss: 0.4999
+[Supervised Fine-tune] Epoch 49/50, Train Loss: 0.8545, Val Loss: 0.4989
+[Supervised Fine-tune] Epoch 50/50, Train Loss: 0.8536, Val Loss: 0.4995
+Best Supervised val loss: 0.4967375765244166
+Done. Model trained with advanced pretraining then supervised training.
+

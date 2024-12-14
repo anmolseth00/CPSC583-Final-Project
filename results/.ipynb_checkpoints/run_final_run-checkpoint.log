@@ -1,0 +1,4 @@
+2024-12-13 21:03:24,341 Starting experiment run_id=final_run
+2024-12-13 21:03:24,683 Running seed 0
+2024-12-13 21:04:12,506 [Pretraining] Seed 0 Epoch 1/50: Train Loss 0.0880, Val Loss 0.0393
+2024-12-13 21:05:01,650 [Pretraining] Seed 0 Epoch 2/50: Train Loss 0.0225, Val Loss 0.0286

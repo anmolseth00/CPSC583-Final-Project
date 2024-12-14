@@ -1,0 +1,12 @@
+{
+  "model_mae_reactivity_mean": 5.341292124721682,
+  "model_mae_reactivity_std": 0.05790353216664947,
+  "model_mae_Mg_pH10_mean": 8.826346956825793,
+  "model_mae_Mg_pH10_std": 0.18185329892498409,
+  "model_mae_Mg_50C_mean": 8.403124465881584,
+  "model_mae_Mg_50C_std": 0.4021159121998512,
+  "degscore_mae_Mg_pH10_mean": 8.033109947853989,
+  "degscore_mae_Mg_pH10_std": 0.0,
+  "degscore_mae_Mg_50C_mean": 8.28852835940634,
+  "degscore_mae_Mg_50C_std": 0.0
+}
